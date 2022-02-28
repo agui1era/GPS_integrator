@@ -3,7 +3,7 @@
 import MySQLdb
 import os
 
-miConexion = MySQLdb.connect( host='gps.igromi.com', user= 'root', passwd='imagina12', db='traccar' )
+miConexion = MySQLdb.connect( host='gps.igromi.com', user= 'traccar', passwd='Traccar12!', db='traccar' )
 cur = miConexion.cursor()
 
 #gps app celu Oscar
